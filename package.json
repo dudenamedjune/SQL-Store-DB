@@ -1,0 +1,32 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Store database using mySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudenamedjune/SQL-Store-DB.git"
+  },
+  "keywords": [
+    "database",
+    "DB",
+    "amazon",
+    "SQL",
+    "store",
+    "retail"
+  ],
+  "author": "June Lara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudenamedjune/SQL-Store-DB/issues"
+  },
+  "homepage": "https://github.com/dudenamedjune/SQL-Store-DB#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "inquirer": "^1.2.3",
+    "mysql": "^2.12.0"
+  }
+}
