@@ -1,0 +1,47 @@
+//-- initalize database and make table with an inital data set --\\
+
+CREATE DATABASE bamazoINt
+Create table for Database in mySQL for products
+	
+	CREATE TABLE products(
+
+	primary key 
+
+	product_name
+
+	department name 
+	
+	price (cost to customer)
+
+	stock_quantity (how much avalible in stores)
+);
+
+
+//-- node application for customers --\\
+
+display table in cli 
+	
+	connect to database in mySQL
+
+	query( SELECT * FROM products, function(err, response){
+
+		create table from response 
+	}
+
+once callback is finished prompt user with two messages 
+
+	Enter the product ID you would like to buy
+
+	How many Units would yo like
+
+check to see if their is enough quanity 
+
+	if response[i].stock_quanity >= customerUnits
+
+		update stock_quanity
+		callback
+			show total cost to customer 
+
+	else
+
+		Sorry but we only have stock_quanity left
